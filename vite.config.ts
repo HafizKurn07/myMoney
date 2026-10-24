@@ -4,6 +4,8 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/myMoney/',          // <‑‑ sangat penting
+  plugins: [react(), VitePWA({ /* … */ })],
   plugins: [
     react(),
     VitePWA({
