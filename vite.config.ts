@@ -19,8 +19,10 @@ export default defineConfig({
         background_color: '#F8FAF9',
         display: 'standalone',
         orientation: 'portrait',
-        start_url: '/',
-        scope: '/',
+         // <<< PERBAIKAN MULAI SINI >>>
+        start_url: '/myMoney/',   // <‑‑ ubah dari '/' ke '/myMoney/'
+        scope: '/myMoney/',       // <‑‑ ubah dari '/' ke '/myMoney/'
+        // <<< PERBAIKAN SELESAI >>>
         icons: [
           {
             src: '/pwa-192x192.svg',
