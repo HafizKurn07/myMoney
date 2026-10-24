@@ -1,0 +1,1 @@
+import{t as e}from"./index-DBuLfytf.js";async function t(){let t=e.tables.map(e=>e.clear());await Promise.all(t),localStorage.setItem(`skipSeed`,`true`)}export{t as clearAllData};
